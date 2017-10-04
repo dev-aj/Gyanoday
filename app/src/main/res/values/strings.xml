@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gyanoday</string>
+    <string name="title_activity_homepge">Homepge</string>
+    <string name="go_to_main_menu">Go to Main Menu</string>
+    <string name="a_brief">A Brief....</string>
+    <string name="inspired_by_swami_vivekanad">Inspired by Swami Vivekanad</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="description_h_student"><![CDATA[DESCRIPTION - - > > > H-Student]]></string>
+</resources>

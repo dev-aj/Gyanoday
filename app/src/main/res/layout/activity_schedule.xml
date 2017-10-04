@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2ef3a"
+    tools:context="com.example.aj.gyanoday.Schedule">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="1dp"
+        android:text="WINTER"
+        android:background="#6887f4"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_x="191dp"
+        android:layout_y="1dp"
+        android:background="#fc6412"
+        android:text="SUMMER"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="70dp"
+        android:background="#ffffff"
+        android:text="Academic Schedule for punny students"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="94dp"
+        android:background="#6887f4"
+        android:text="3:00 Pm to 4:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-1dp"
+        android:layout_y="117dp"
+        android:background="#ffffff"
+        android:text="Time for self study and self analysis"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="186dp"
+        android:layout_height="38dp"
+        android:layout_x="3dp"
+        android:layout_y="140dp"
+        android:background="#6887f4"
+        android:text="6:00 Pm to 9:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="405dp"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="28dp"
+        android:background="#ffffff"
+        android:text="Academic Schedule for classes"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="195dp"
+        android:layout_y="49dp"
+        android:background="#f8fc8312"
+        android:text="7:00 Am to 1:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="50dp"
+        android:background="#6887f4"
+        android:text="8:00 Am to 2:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="197dp"
+        android:layout_y="96dp"
+        android:background="#f8fc8312"
+        android:text="3:00 Pm to 5:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="141dp"
+        android:background="#f8fc8312"
+        android:text="4:00 Am to 5:00 Am and 7:00 Pm to 9:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="185dp"
+        android:background="#ffffff"
+        android:text="Mini breakfast and Milk"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="214dp"
+        android:background="#6887f4"
+        android:text="7:00 Am"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="215dp"
+        android:background="#f8fc8312"
+        android:text="6:30 Am"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="237dp"
+        android:background="#ffffff"
+        android:text="Breakfast"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="201dp"
+        android:layout_y="265dp"
+        android:background="#f8fc8312"
+        android:text="9:00 Am"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="264dp"
+        android:background="#6887f4"
+        android:text="10:00 Am"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="288dp"
+        android:background="#ffffff"
+        android:text="Lunch"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="314dp"
+        android:background="#6887f4"
+        android:text="2:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="338dp"
+        android:background="#ffffff"
+        android:text="Light Stimulant"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="366dp"
+        android:background="#6887f4"
+        android:text="5:30 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="391dp"
+        android:background="#ffffff"
+        android:text="Dinner"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="201dp"
+        android:layout_y="315dp"
+        android:background="#f8fc8312"
+        android:text="1:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="203dp"
+        android:layout_y="366dp"
+        android:background="#f8fc8312"
+        android:text="6:30 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_x="202dp"
+        android:layout_y="416dp"
+        android:background="#f8fc8312"
+        android:text="9:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="418dp"
+        android:background="#6887f4"
+        android:text="9:00 Pm"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="441dp"
+        android:background="#ffffff"
+        android:text="There are many other activities performed like Physical training to every students who live in
+hostel in the morning, Games in the evening in
+the supervision of expert teachers."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/enq"
+        android:layout_width="260dp"
+        android:layout_height="37dp"
+        android:layout_x="70dp"
+        android:layout_y="510dp"
+        android:background="#d3d3bb"
+        android:text="Click Here For more details" />
+
+
+</AbsoluteLayout>
+</ScrollView>

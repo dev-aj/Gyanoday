@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92c9ed"
+    tools:context="com.example.aj.gyanoday.Others">
+
+    <ImageView
+        android:id="@+id/slideshow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lg"
+        android:layout_above="@+id/Next"
+        android:layout_alignRight="@+id/Next"
+        android:layout_alignEnd="@+id/Next" />
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignBaseline="@+id/Prev"
+        android:layout_alignBottom="@+id/Prev"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/Prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prev"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp" />
+
+    <ImageButton
+        android:id="@+id/RegButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rg"
+        android:layout_alignTop="@+id/Prev"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+</RelativeLayout>
