@@ -20,6 +20,7 @@ Button men;
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

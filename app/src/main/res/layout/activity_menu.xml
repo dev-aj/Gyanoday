@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/b1"
     tools:context="com.example.aj.gyanoday.Menu">
 
     <TextView
@@ -12,93 +11,68 @@
         android:layout_width="132dp"
         android:layout_height="wrap_content"
         android:text="@string/main_menu"
-        android:textSize="26dp"
-        android:textColor="#f0e5e5"
+        android:textSize="26sp"
+        android:textColor="#000000"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="6dp"
-        tools:ignore="MissingConstraints,SpUsage"
-        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text='Managed By "Athrav Nyas"'
-        tools:layout_editor_absoluteX="110dp"
-        android:textColor="#000000"
-        tools:layout_editor_absoluteY="491dp"
-        tools:ignore="HardcodedText,MissingConstraints"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/inspired_by_swami_vivekanad"
-        android:textColor="#000000"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="478dp"
-        tools:ignore="MissingConstraints"
-        android:layout_above="@+id/textView5"
-        android:layout_centerHorizontal="true" />
-
     <ImageButton
-        android:id="@+id/others"
-        android:layout_width="310dp"
-        android:layout_height="86dp"
-        app:srcCompat="@drawable/ot"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="272dp"
-        tools:ignore="ContentDescription,MissingConstraints"
-        android:contentDescription=""
-        android:layout_marginBottom="53dp"
-        android:layout_above="@+id/textView6"
+        android:id="@+id/schedule"
+        android:layout_width="312dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="79dp"
+        android:layout_below="@+id/textView4"
+        app:srcCompat="@drawable/sd"
         android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:id="@+id/fee"
         android:layout_width="306dp"
         android:layout_height="84dp"
+        android:layout_marginTop="20dp"
         app:srcCompat="@drawable/fee"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="77dp"
-        tools:ignore="ContentDescription,MissingConstraints"
-        android:contentDescription=""
-        android:layout_marginBottom="23dp"
-        android:layout_above="@+id/contact"
-        android:layout_alignLeft="@+id/others"
-        android:layout_alignStart="@+id/others" />
+        android:layout_below="@+id/schedule"
+        android:layout_centerHorizontal="true" />
 
     <ImageButton
         android:id="@+id/contact"
         android:layout_width="311dp"
+        android:layout_marginTop="20dp"
         android:layout_height="81dp"
         app:srcCompat="@drawable/cs"
-        tools:layout_editor_absoluteX="37dp"
-        tools:layout_editor_absoluteY="175dp"
-        tools:ignore="ContentDescription,MissingConstraints"
-        android:contentDescription=""
-        android:layout_marginBottom="17dp"
-        android:layout_above="@+id/others"
-        android:layout_alignRight="@+id/others"
-        android:layout_alignEnd="@+id/others" />
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fee"/>
+
 
     <ImageButton
-        android:id="@+id/schedule"
-        android:layout_width="312dp"
-        android:layout_height="79dp"
-        android:contentDescription=""
-        app:srcCompat="@drawable/sd"
-        tools:ignore="ContentDescription,MissingConstraints"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="371dp"
-        android:layout_above="@+id/fee"
-        android:layout_alignLeft="@+id/fee"
-        android:layout_alignStart="@+id/fee"
-        android:layout_marginBottom="16dp" />
+        android:id="@+id/others"
+        android:layout_width="310dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ot"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/contact"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/others"
+        android:id="@+id/t1"
+        android:text="@string/menu_t1"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:id="@+id/t2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="@string/menu_t2"/>
 
 </RelativeLayout>
