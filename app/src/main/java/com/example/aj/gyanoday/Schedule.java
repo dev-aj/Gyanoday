@@ -12,7 +12,7 @@ Button b1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_schedule2);
+        setContentView(R.layout.activity_schedule);
         b1 = (Button)findViewById(R.id.enq);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override

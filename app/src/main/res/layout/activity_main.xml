@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3dd1c7"
+    android:background="@drawable/a"
     tools:context="com.example.aj.gyanoday.MainActivity">
 
     <ImageView
@@ -12,9 +12,7 @@
         android:layout_width="305dp"
         android:layout_height="261dp"
         android:layout_marginLeft="75dp"
-        android:layout_marginTop="40dp"
         app:srcCompat="@drawable/g"
-        android:layout_centerHorizontal="true"
         tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="-3dp" />
 
@@ -23,9 +21,13 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
         android:layout_below="@+id/imageView3"
-        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="123dp"
+        android:layout_marginStart="123dp"
         android:layout_marginTop="79dp"
+        android:background="@color/colorPrimaryDark"
         android:progressDrawable="@color/colorPrimaryDark"
         android:progressTint="@color/colorPrimary"
         android:visibility="visible"
@@ -35,13 +37,15 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
         android:layout_below="@+id/imageView3"
-        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
         android:text=" Welcome  to  GYANODAY"
-        android:layout_centerHorizontal="true"
         android:textAlignment="gravity"
         android:textColor="#000000"
-        android:layout_marginTop="10dp"
         android:textSize="22dp"
         android:textStyle="bold" />
 

@@ -38,10 +38,10 @@
 
     <ImageButton
         android:id="@+id/RegButton"
-        android:layout_width="160dp"
-        android:layout_height="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:srcCompat="@drawable/rg"
         android:layout_alignTop="@+id/Prev"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="29dp" />
 </RelativeLayout>

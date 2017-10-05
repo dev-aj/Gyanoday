@@ -4,29 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#e8e46d"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.aj.gyanoday.Homepge"
     tools:showIn="@layout/activity_homepge">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="5dp"
-        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="249dp"
         app:srcCompat="@drawable/s" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_below="@+id/imageView"
-        android:layout_marginTop="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:textColor="#311b92"
-        android:textSize="24sp"
+        android:textSize="24dp"
         android:textStyle="bold"
         android:text="@string/a_brief" />
 
@@ -34,23 +34,27 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/homepage_text"
+        android:text=" As gyanoday is a well known facilitator of
+ Sainik Schools and other reputed schools like this.It has been constantly running in an
+ integrated process of learning, overall development and unlocking hidden potential of a child.
+&quot;Gyanoday is having a never giving up attitude being associated with all acedamic gurus and thinkers.&quot;"
         android:textColor="#ff5722"
-        android:textSize="17sp"
-
+        android:textSize="18dp"
         android:layout_below="@+id/textView"
-        android:layout_marginLeft="7dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp" />
 
     <Button
         android:id="@+id/menu"
-        android:layout_below="@+id/textView3"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#1c00f4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
-        android:text="@string/homepage_menu"
-        android:textColor="#ffea01"/>
+        android:background="#311b92"
+        android:elevation="6dp"
+        android:text="Menu"
+        android:textColor="#c6ff00"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
 
 </RelativeLayout>
