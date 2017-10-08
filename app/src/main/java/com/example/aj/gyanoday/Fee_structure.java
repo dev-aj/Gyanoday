@@ -12,7 +12,7 @@ ImageButton reg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fee_structure);
+        setContentView(R.layout.fee_structure);
         reg = (ImageButton)findViewById(R.id.regbtn);
         reg.setOnClickListener(new View.OnClickListener() {
             @Override
