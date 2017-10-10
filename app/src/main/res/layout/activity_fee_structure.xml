@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1,2,3"
+        android:background="#b6b6f7"
+        tools:context="com.example.aj.gyanoday.Fee_structure"
+        tools:ignore="ScrollViewSize">
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:id="@+id/Feestruct"
+                android:text="FEE  STRUCTURE"
+                android:textSize="28sp"
+                android:textAlignment="center"
+                android:textColor="#e4f5f2"
+                android:background="#e1790b"
+                android:textStyle="bold"
+                android:padding="12dp"/>
+            <ImageView
+                android:id="@+id/feeimg"
+                android:src="@drawable/fn"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/hoste"
+                android:layout_column="1"
+                android:text="Description- -> > >    Hostel_Student"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:padding="2dp"
+                />
+            <TextView
+                android:id="@+id/daysch"
+                android:textAlignment="gravity"
+                android:text="D-Student"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/regfee"
+                android:layout_column="1"
+                android:text="*Registration Fee- -> > >         200 "
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:padding="8dp"
+                />
+            <TextView
+                android:id="@+id/regfee1"
+                android:text="200"
+
+                android:textSize="18dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:padding="8dp"
+                tools:ignore="HardcodedText" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/admfee"
+                android:layout_column="1"
+                android:text="*Admission Fee   - -> > >        2500 "
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:padding="8dp"
+                />
+            <TextView
+                android:id="@+id/admfee1"
+                android:text="1000"
+
+                android:textSize="18dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:padding="8dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tutnfee"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="Tution Fee (nur,lkg,ukg)- -> >  3000"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tutnfee1"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="700"
+
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tutnfee2"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="Tution Fee (Class 1-5)- -> >   3300"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tutnfee21"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="700"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tutnfee3"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="Tution Fee (Class 6-8)- -> >   3500"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tutnfee31"
+                android:background="#FFFFFF"
+                android:padding="8dp"
+                android:text="800"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tutnfee4"
+                android:layout_column="1"
+                android:background="#FFFFFF"
+                android:padding="6dp"
+                android:text="Tution Fee (Class > 8)- -> >   4000"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tutnfee41"
+                android:background="#FFFFFF"
+                android:padding="6dp"
+                android:text="900"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/miscfee"
+                android:layout_column="1"
+                android:text="#Miscellaneous Fee  - -> > >  5000 "
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:padding="6dp"
+                />
+            <TextView
+                android:id="@+id/miscfee1"
+                android:text="1100"
+                android:textSize="18dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:padding="6dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/locker"
+                android:layout_column="1"
+                android:text="*Locker Fee       - -> > >           3000 "
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:padding="6dp"
+                />
+            <TextView
+                android:id="@+id/locker1"
+                android:text="N/A"
+                android:textSize="18dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:padding="6dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/exam"
+                android:layout_column="1"
+                android:text="#Examination Fee      - -> > >  3000 "
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:padding="6dp"
+                />
+            <TextView
+                android:id="@+id/exam1"
+                android:text="2000"
+                android:textSize="18dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:padding="6dp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/note"
+                android:layout_column="1"
+                android:text="* Chargeable at the time of admission Only
+#Yearly Charges"
+                android:textColor="#000000"
+                android:textSize="16dp"
+                />
+        </TableRow>
+        <TableRow>
+
+            <ImageButton
+                android:id="@+id/regbtn"
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:layout_marginLeft="150dp"
+                android:src="@drawable/rg" />
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
